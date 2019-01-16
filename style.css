@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+   min-height: 44px;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+   user-select: none;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+.buttonRemove {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.buttonRemove:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+    
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 60%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  margin-right:1px;
+}
+
+.buttonHeader {
+  padding: 10px;
+  width: 12%;
+  background: #d9d9d9;
+  margin-right:1px;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.buttonHeader:hover {
+  background-color: #bbb;
+}
